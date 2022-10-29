@@ -1,0 +1,5 @@
+{
+    "PO_BETA_MTA_30M_BUY_TAKE": [0, 0.2, 0.5],
+    "PO_BETA_MTA_30M_SELL_TAKE": [0, 0.2, 0.5],
+    "PO_BETA_MTA_30M_SHORT_ONBBO": [0, 0.2, 0.5]
+}

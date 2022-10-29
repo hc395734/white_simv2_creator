@@ -1,0 +1,19 @@
+{
+    "HkWhiteAlgoActor": {
+        "riskFile": {
+            "poolName": "strat_res",
+            "namespace": "strat_res_input_HKG",
+            "pathFormat": "/strat_res/strat_res_input_HKG/riskFile/barra/{}.csv"
+        },
+        "secFile": {
+            "poolName": "strat_res",
+            "namespace": "strat_res_input_HKG",
+            "pathFormat": "/strat_res/strat_res_input_HKG/secFile/short_unlimited_all/{}.csv"
+        },
+        "dailyJson": {
+            "poolName": "strat_res",
+            "namespace": "strat_res_input_HKG",
+            "pathFormat": "/strat_res/strat_res_input_HKG/dailyJson/1.0.1/{}.json"
+        }
+    }
+}

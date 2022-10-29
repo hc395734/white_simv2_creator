@@ -1,0 +1,137 @@
+{
+    "experiment00": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment01": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment02": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment03": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment04": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment05": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment06": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment07": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment08": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment09": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment10": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment11": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment12": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment13": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment14": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment15": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment16": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment17": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment18": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment19": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment20": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment21": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment22": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment23": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.2",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ],
+    "experiment24": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0"
+    ],
+    "experiment25": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.2"
+    ],
+    "experiment26": [
+        "sd/white/PO_BETA_MTA_30M_BUY_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SELL_TAKE/0.5",
+        "sd/white/PO_BETA_MTA_30M_SHORT_ONBBO/0.5"
+    ]
+}

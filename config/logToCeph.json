@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "removeAfterUpload": true,
+    "destination": {
+        "poolName": "hope",
+        "namespace": "results_eq_hkg",
+        "pathFormat": "/hope/results_eq_hkg/%s/%s/{}"
+    }
+}

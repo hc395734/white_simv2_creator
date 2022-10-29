@@ -1,0 +1,222 @@
+{
+    "latency": {},
+    "ceph": {},
+    "logToCeph": {},
+    "batchMillisecond": -1,
+    "dates": [],
+    "groupNumber": -1,
+    "securities": [],
+    "source": {
+        "dynamicSourceFactories": [],
+        "messageCacheSize": 1024,
+        "perSecurityFeeds": [
+            {
+                "class": "HkMdStaFeed",
+                "latencyMicros": -1,
+                "init": {
+                    "yyyy": true,
+                    "cephLocation": {}
+                }
+            },
+            {
+                "class": "HkOrderFeed",
+                "latencyMicros": -1,
+                "init": {
+                    "yyyy": true,
+                    "cephLocation": {}
+                }
+            },
+            {
+                "class": "HkTradeFeed",
+                "latencyMicros": -1,
+                "init": {
+                    "yyyy": true,
+                    "cephLocation": {}
+                }
+            }
+        ],
+        "universalFeeds": [
+            {
+                "class": "HkMtaFeed",
+                "latencyMicros": -1,
+                "init": {
+                    "cephLocation": {}
+                }
+            },
+            {
+                "class": "HkIndexFeed",
+                "latencyMicros": -1,
+                "init": {
+                    "yyyy": true,
+                    "cephLocation": {}
+                }
+            }
+        ]
+    },
+    "actors": {
+        "dynamicActorFactories": [
+            {
+                "libPath": "./libwhite_algo_actor.so",
+                "symbol": "registerWhiteAlgoActor"
+            },
+            {
+                "libPath": "./libwhite_simv2_me.so",
+                "symbol": "registerWhiteSimV2ME"
+            }
+        ],
+        "perGroupActors": [
+            {
+                "class": "MbdMatchingEngineActor",
+                "location": "Shanghai",
+                "subscribe": [
+                    "algo1"
+                ],
+                "init": {}
+            }
+        ],
+        "sharedActors": [
+            {
+                "class": "HkWhiteAlgoActor",
+                "alias": "algo1",
+                "location": "Shanghai",
+                "init": {
+                    "commissionRateBuy": -1.0,
+                    "commissionRateSell": -1.0,
+                    "source": {},
+                    "flags": [],
+                    "baseConfigPath": "",
+                    "omsProperty": {
+                        "hkexMode": true,
+                        "mayaMode": false,
+                        "enableShortTrading": true,
+                        "enableMarginTrading": false,
+                        "marginMode": false,
+                        "marginModeV2": false,
+                        "automaticCapcityMode": false,
+                        "disableSplitAccountWarnings": false,
+                        "orderUpdatesAreLikelyOutOfOrder": false,
+                        "enableOrderLogRecord": true
+                    },
+                    "accountContext": {
+                        "accountId": -1,
+                        "longAccountId": -1,
+                        "longBrokerId": -1,
+                        "longSuffixId": 0,
+                        "bannedStocks": [],
+                        "brokerId": 0,
+                        "calcMode": 1,
+                        "cashFreeEquity": -1,
+                        "globalFreeEquity": -1,
+                        "marginFreeEquity": -1,
+                        "underlyingIndex": 5,
+                        "cashFreeEquityBuffer": 0.0,
+                        "clockOfMostRecentIndexUpdate": 0,
+                        "currentActionArrayIndex": 0,
+                        "doNotAutoSellIpo": false,
+                        "enableIndexCalcLogic": true,
+                        "enableIndustryIndexInStrat": true,
+                        "enablePerStockHistoricalOrdersCheck": true,
+                        "freeEquityBufferRateLong": 0.0,
+                        "freeEquityBufferRateLongWarning": true,
+                        "freqControlLimit": 5,
+                        "globalExposure": 0.0,
+                        "globalFreeEquityBuffer": 0.0,
+                        "globalFrozenEquity": 0.0,
+                        "globalIndexValue": 0.0,
+                        "globalMaxPriceMoveBetweenTradesSSE": 0.019,
+                        "globalMaxPriceMoveBetweenTradesSZE": 0.02,
+                        "globalMv": 0.0,
+                        "globalMvToday": 0.0,
+                        "globalPrevOrdersWindowSizeMicrosSSE": 360000000,
+                        "globalPrevOrdersWindowSizeMicrosSZE": 180000000,
+                        "globalShortExposureUnsigned": 0.0,
+                        "globalShortMvTodayUnsigned": 0.0,
+                        "globalShortMvUnsigned": 0.0,
+                        "indexTicker": 0,
+                        "insertionFreqCtrlTimeFrame": 120000,
+                        "marginFreeEquityBuffer": 0.0,
+                        "marginQuota": -1.0,
+                        "maxActionsPerDay": 50000,
+                        "maxCancelsPerDay": 20000,
+                        "maxCancelsPerStock": 100,
+                        "maxInsertsPerStock": 300,
+                        "maxNotionalCYB": 0.0,
+                        "maxNotionalNormal": 0.0,
+                        "maxNotionalPerOrderGlobal": 8000000,
+                        "maxOutstandingOrdersPerStock": 10,
+                        "maxSharesPerCYBOrderGlobal": 300000,
+                        "maxSharesPerKCBOrderGlobal": 100000,
+                        "maxSharesPerOrderGlobal": 800000,
+                        "minMicrosBetweenOrdersDiffDirections": 1800000000,
+                        "minMicrosBetweenTradePerStock": 500000,
+                        "minMvRatioOverride": 0.8,
+                        "minMvRatioOverrideEnabled": false,
+                        "minSecondsBeforeRepeat": 1,
+                        "minTimeAfterInsertionToCancel": 1000000,
+                        "newOmsIACS": {
+                            "globalExposure": 0.0,
+                            "globalFreeEquity": 0.0,
+                            "globalMv": 0.0,
+                            "globalMvToday": 0.0
+                        },
+                        "orderActionTimes": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "runmode": 0,
+                        "shortSellingEquity": 0.0,
+                        "shortToMfeGlobalRatio": 1.0,
+                        "targetShortMvUnsigned": 0.0,
+                        "totalActions": 0,
+                        "totalAsset": 0.0,
+                        "totalCancelationRejectedForFreq": 0,
+                        "totalCanceled": 0,
+                        "totalDebit": 0.0,
+                        "totalInsertionRejectForHistoricalOrders": 0,
+                        "totalInsertionRejectedForFreq": 0,
+                        "totalInsertionRejectedForPerStockFreq": 0,
+                        "totalMissedCancel": 0,
+                        "totalRejected": 0,
+                        "volumeOfMostRecentIndexUpdate": 0
+                    }
+                },
+                "state": {
+                    "inventory": []
+                },
+                "subscribe": [
+                    "MbdMatchingEngineActor"
+                ]
+            }
+        ]
+    }
+}

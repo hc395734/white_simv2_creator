@@ -1,0 +1,52 @@
+{
+    "HkMdStaFeed": {
+        "snapshot": {
+            "poolName": "com_md_eq_hkg",
+            "namespace": "md_snapshot_mbo",
+            "pathFormat": "/com_md_eq_hkg/md_snapshot_mbo/locale_default/reuters/1.0.3/{}/{}.parquet"
+        },
+        "sta90": {
+            "poolName": "sta_alpha_eq_hkg",
+            "namespace": "sta_alpha_mtz",
+            "pathFormat": "/sta_alpha_eq_hkg/sta_alpha_mtz/sta_alpha_90_comb_1_1_mbo_v2/1.0.3/{}/{}.parquet"
+        },
+        "sta95p90": {
+            "poolName": "sta_alpha_eq_hkg",
+            "namespace": "sta_alpha_mtz",
+            "pathFormat": "/sta_alpha_eq_hkg/sta_alpha_mtz/sta_alpha_90_95p_1_1_mbo_v2_1/1.0.3/{}/{}.parquet"
+        }
+    },
+    "HkOrderFeed": {
+        "default": {
+            "poolName": "com_md_eq_hkg",
+            "namespace": "md_order",
+            "pathFormat": "/com_md_eq_hkg/md_order/locale_default/reuters/1.0.3/{}/{}.parquet"
+        }
+    },
+    "HkTradeFeed": {
+        "default": {
+            "poolName": "com_md_eq_hkg",
+            "namespace": "md_trade",
+            "pathFormat": "/com_md_eq_hkg/md_trade/locale_default/reuters/1.0.3/{}/{}.parquet"
+        }
+    },
+    "HkMtaFeed": {
+        "mta1": {
+            "poolName": "strat_res",
+            "namespace": "strat_res_mta_HKG",
+            "pathFormat": "/strat_res/strat_res_mta_HKG/HSI/mta_1day/2.1.1b_d/{}.parquet"
+        },
+        "mta3": {
+            "poolName": "strat_res",
+            "namespace": "strat_res_mta_HKG",
+            "pathFormat": "/strat_res/strat_res_mta_HKG/HSI/mta_30min/2.1.1b_d/{}.parquet"
+        }
+    },
+    "HkIndexFeed": {
+        "default": {
+            "poolName": "com_md_idx_hkg",
+            "namespace": "md_snapshot_lv1",
+            "pathFormat": "/com_md_idx_hkg/md_snapshot_lv1/locale_default/reuters/1.0.0/tick/{}/101200001.parquet"
+        }
+    }
+}
