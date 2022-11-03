@@ -1,5 +1,5 @@
 # white_simv2_creator
-The repo is currently only compatible with refactored HKG LS and HKG PO simulations.  The DFS and HPC confidentials are still Hope's.  This will be modified soon.
+The repo is currently only compatible with refactored CHN L5, HKG LS, and HKG PO simulations.  The DFS and HPC confidentials are still Hope's.  This will be modified soon.
 
 To use it, first modify `setup/flags.json`, fill in the rest of the setup parameters in `main.py` and run it.
 ```
