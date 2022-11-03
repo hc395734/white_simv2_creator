@@ -2,12 +2,17 @@
 The repo is currently only compatible with refactored HKG LS and HKG PO simulations.  The DFS and HPC confidentials are still Hope's.  This will be modified soon.
 
 To use it, first modify `setup/flags.json`, fill in the rest of the setup parameters in `main.py` and run it.
-```python
+```
 python main.py
 ```
 This will create all the config json files in `output`.
 
-`deploy.py` contains code to copy the files to the HPC via `scp`.
+`deploy.py` contains code to copy the files to the HPC via `scp`.  It deploys all experiment runs in a certain market: `output/{market}`.
+```
+python deploy.py
+```
+
+Then, on the HPC, within each experiment folder, there is a script called `starter.py`, which would copy the necessary image.
 
 The `dynamics` is for storing so and image files (that are not on the HPC).
 ```
